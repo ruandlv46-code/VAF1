@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vuelta al futuro</title>
+
+
+    <!-- 1.BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+
+
+    <!-- 2.CUSTOM CSS -->
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <!-- 3.FAVICON -->
+    <link rel="shortcut icon" href="img/fav2.jpg" type="x-icon">
+
+
+</head>
+
+<body>
+
+
+    <div class="d-flex justify-content-between bg-body-tertiary p-3">
+
+
+
+
+        <form action="busqueda.php" method="GET" class="d-flex" role="search">
+            <input class="form-control me-2" name="q" type="search" placeholder="Buscador" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+
+
+
+        <div>
+            <img class="container-sm img-fluid " src="img/BTTF_Logo_tr_xsm.png" alt=" No logo">
+
+        </div>
+
+
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php">INICIO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="previews.php?categoria=personajes">PERSONAJES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="peliculas.php">PELICULAS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="previews.php?categoria=vehiculos">VEHICULOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="preview2.php?categoria=tiempo">LINEA DE TIEMPO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="preview2.php?categoria=cameos">CAMEOS</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+
+
+
+</body>
