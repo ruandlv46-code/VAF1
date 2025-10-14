@@ -1,0 +1,48 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+
+    background-color: #191825;
+} */
+
+
+/* HEADER */
+/* header {
+    background-color: #FFCC00;
+    color: #000000;
+
+} */
+
+h1 {
+    color: #EB5B00;
+    font-size: 40px;
+}
+
+/* p {
+    font-family: vend sans;
+    color: #000000;
+} */
+
+
+/* FOOTER */
+
+/* footer {
+    background-color: #FFCC00;
+    color: #000000;
+} */
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* button {
+    background-color: #0A74DA;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 12px 20px;
+} */

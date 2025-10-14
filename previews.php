@@ -38,21 +38,23 @@ echo "</pre>"; */ ?>
 
 
 
-    <h1 class="text-center">Guia de <?= $tabla ?></h1>
+    <h1 class="text-center p-5">Guia de <?= $tabla ?></h1>
 
-    <div class="row">
+    <div class="container row mx-auto">
 
         <?php foreach ($categorias as $c) { ?>
             <div class="col-4 mt-4 mb-4">
+                <a href="<?= $tabla ?>.php?categoria=<?= $tabla ?>&id=<?= $c["id"] ?>">
                 <div class="card" style="width: 18rem;">
                     <img height="300px"src="img/<?= $tabla ?>/<?= $c["img1"] ?> " class="card-img-top" alt="#">
                     
                     <div class="card-body">
-                        <h5 class="card-title"><?= $c["nombre"] ?> </h5>
+                        <h5 class="card-title text-center"><?= $c["nombre"] ?> </h5>
 
-                        <a href="<?= $tabla ?>.php?categoria=<?= $tabla ?>&id=<?= $c["id"] ?>" class="btn btn-warning">Ver mas</a>
+                        <!-- <a href="<?= $tabla ?>.php?categoria=<?= $tabla ?>&id=<?= $c["id"] ?>" class="btn btn-warning">Ver mas</a> -->
                     </div>
                 </div>
+                </a>
 
             </div>
 

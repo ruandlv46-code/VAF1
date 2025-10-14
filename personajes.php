@@ -24,11 +24,22 @@ echo "</pre>";
 
 
 <main class="container">
+  <style>
+    .card img {
+      width: 100%;
+      height: 300px;
+      /* podés ajustar: 250px, 400px, etc. */
+      object-fit: cover;
+      /* recorta sin deformar */
+      border-radius: 10px;
+    }
+  </style>
 
-    <?php foreach ($personajes as $p) { ?>
+  <?php foreach ($personajes as $p) { ?>
 
 
-      <!--   <div class="card mb-3 mt-5 mx-auto" style="max-width: 740px;">
+
+    <!--   <div class="card mb-3 mt-5 mx-auto" style="max-width: 740px;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="img/personajes/<?= $p['img1'] ?>" class="img-fluid rounded-start" alt="...">
@@ -46,25 +57,53 @@ echo "</pre>";
                 </div>
             </div>
         </div> -->
-        <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-   
-    <div class="col-md-8">
+    <!-- <div class="card mb-3" style="max-width: 540px;"> -->
+
+
+
+
+    <div class="card card-pequena">
+
+      <div class="personaje-card mx-auto p-4 shadow-lg rounded-4">
+        <div class="row g-4">
+
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title"> <b></b><?= $p['nombre'] ?></h1>
+                <br>
+                <p class="fs-4"> <b></b><?= $p['descripcion'] ?></p>
+              </div>
+            </div>
+            <div class="col-md-4 fs-3">
+              <img src="img/personajes/<?= $p['img1'] ?>" class="img-fluid rounded-start" alt="...">
+              <h5 class="fs-3">Informacion biologica</h5>
+              <p>Fecha de nacimiento: <?= $p['fecha_de_nacim'] ?></p>
+              <p>Edad: <?= $p['edad'] ?></p>
+              <h5 class="fs-3">Informacion detras de escena</h5>
+              <p>interpretado por:</p>
+              <p><?= $p['actor'] ?></p>
+            </div>
+            <div class="card-body text-end">
+              <button class="btn btn-primary">SUSCRIBETE</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--<div class="row justify-content-center g-4">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+    <div class="card text-center" style="width: 16rem;">
+      <img src="img/personajes/<?= $p['img1'] ?>" class="card-img-top" alt="<?= $p['nombre'] ?>" style="height: 250px; object-fit: cover;">
       <div class="card-body">
-     <h1 class="card-title"> <b></b><?= $p['nombre'] ?></h1>
-         <p class="card-text"> <b></b><?= $p['descripcion'] ?></p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <h5 class="card-title"><?= $p['nombre'] ?></h5>
+        <a href="#" class="btn btn-warning">Ver más</a>
       </div>
     </div>
-     <div class="col-md-4">
-      <img src="img/personajes/<?= $p['img1'] ?>" class="img-fluid rounded-start" alt="...">
-      <h5>Informacion biologica</h5>
-      <p>Fecha de nacimiento: <?= $p['fecha_de_nacim'] ?></p>
-      <p>Edad: <?= $p['edad'] ?></p>
-    </div>
   </div>
+</div>-->
 
-</div>
 
     <?php } ?>
 

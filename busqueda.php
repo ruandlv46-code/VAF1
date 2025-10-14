@@ -8,7 +8,7 @@ require_once "utils/funciones.php";
 $termino_busqueda = $_GET['q'] ? $_GET['q'] : '';
 
 
-//var_dump($termino_busqueda);
+/* var_dump($termino_busqueda); */
 
 $resultados = [];
 
@@ -31,8 +31,13 @@ if ($termino_busqueda) {
 require "partials/header.php" ?>
 
 
+
 <main class="container">
     <h1 class="text-center">Resultados de busqueda</h1>
+
+<?php var_dump($termino_busqueda)?>   
+<br>
+<?php var_dump($resultados)?>  
 
     <?php if ($termino_busqueda && !empty($resultados)) { ?>
         <div class="row">
@@ -40,9 +45,9 @@ require "partials/header.php" ?>
             <?php foreach ($resultados as $c) { ?>
                 <div class="col-4 mt-4 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img height="400px" src="img/<?= $c['tabla'] ?>/<?= $c["imagen"] ?>" class="card-img-top" alt="...">
+                        <img height="400px" src="img/<?= $c['tabla'] ?>/<?= $c["img1"] ?>" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?= $c["nombre"] ?> </h5>
+                            <h5 class="card-title"><?= $c['nombre'] ?> </h5>
 
                             <a href="<?= $c['tabla'] ?>.php?categoria=<?= $c['tabla'] ?>&id=<?= $c["id"] ?>" class="btn btn-warning">Ver mas</a>
                         </div>
