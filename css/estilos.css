@@ -11,16 +11,33 @@
 
 
 /* HEADER */
-/* header {
-    background-color: #FFCC00;
-    color: #000000;
 
-} */
+header {
+    background-color: #FFCC00;
+    color:#191825;
+;
+
+}
+
+/* Body */
+
+body {
+   background-color:#191825;
+
+}
 
 h1 {
     color: #EB5B00;
     font-size: 40px;
 }
+
+
+.titulocarta {
+    font-size: 12px
+
+
+}
+
 
 /* p {
     font-family: vend sans;
@@ -30,19 +47,26 @@ h1 {
 
 /* FOOTER */
 
-/* footer {
+footer {
     background-color: #FFCC00;
-    color: #000000;
-} */
+    color:#191825;
+}
 
 /* .container {
     display: flex;
     justify-content: space-between;
 } */
 
-/* button {
+
+.icono {
+font-size: 24px;
+color: #0A74DA;
+}
+
+
+button {
     background-color: #0A74DA;
     color: #ffffff;
     border-radius: 6px;
     padding: 12px 20px;
-} */
+}

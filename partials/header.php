@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vuelta al futuro</title>
      <link rel="icon" type="image/x-icon" href="img/icono.ico">
-     <link rel="stylesheet" href="css/estilos.css">
+    
     
 
 
@@ -17,19 +17,23 @@
 
 
     <!-- 2.CUSTOM CSS -->
-
-    <link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/estilos.css">
 
 
     <!-- 3.FAVICON -->
     <link rel="shortcut icon" href="img/fav2.jpg" type="x-icon">
+
+    <!-- 4.ICONOS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
 </head>
 
 
 
-    <div class="d-flex justify-content-between bg-body-tertiary p-3">
+<header>
+
+    <div class="d-flex justify-content-between p-3">
 
         <form action="busqueda.php" method="GET" class="d-flex ms-5" role="search">
             <input class="form-control me-2" name="q" type="search" placeholder="Buscador" aria-label="Search" />
@@ -42,7 +46,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
 
         <div class="container-fluid">
 
@@ -85,5 +89,13 @@
     </nav>
 
 
+
+</header>
+
+<body>
+    
+
+
+<main>
 
 

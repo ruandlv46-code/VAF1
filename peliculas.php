@@ -9,7 +9,7 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="img/pelicula1.jpg" class="img-fluid rounded-start" alt="...">
+        <img src="img/img-peliculas/pelicula1.jpg" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -27,7 +27,7 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="img/pelicula2.jpg" class="img-fluid rounded-start" alt="...">
+        <img src="img/img-peliculas/pelicula2.jpg" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -44,7 +44,7 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="img/pelicula3.jpg" class="img-fluid rounded-start" alt="...">
+        <img src="img/img-peliculas/pelicula3.jpg" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
