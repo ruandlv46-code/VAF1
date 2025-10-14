@@ -1,4 +1,3 @@
-
 <?php require "partials/header.php"; ?>
 
 
@@ -7,116 +6,168 @@
 <body>
 
 
-    <h1 class="text-center">PELICULA VOLVER AL FUTURO</h1>
+    <h1 class="text-center p-5">PELICULA VOLVER AL FUTURO</h1>
 
-    <div class="container"> 
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- <div class="container d-flex gap-4">
+        <div class="card mb-3">
+            <div class="row card-body">
+                <div class="col p-3"> -->
+
+
+    <div class="d-flex justify-content-center">
+
+        <div class="card mb-3">
+            <div class="row card-body">
+                <div class="col p-3">
+
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/img-carrusel_index/fotocarrusel1.jpg" class="d-block w-100" alt="#1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-carrusel_index/fotocarrusel2.jpg" class="d-block w-100" alt="#2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-carrusel_index/fotocarrusel3.jpg" class="d-block w-100" alt="#3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-carrusel_index/fotocarrusel4.jpg" class="d-block w-100" alt="#4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-carrusel_index/fotocarrusel5.jpg" class="d-block w-100" alt="#5">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/img-carrusel_index/fotocarrusel1.jpg" class="d-block w-100" alt="#1">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img-carrusel_index/fotocarrusel2.jpg" class="d-block w-100" alt="#2">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img-carrusel_index/fotocarrusel3.jpg" class="d-block w-100" alt="#3">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img-carrusel_index/fotocarrusel4.jpg" class="d-block w-100" alt="#4">
-            </div>
-            <div class="carousel-item">
-                <img src="img/img-carrusel_index/fotocarrusel5.jpg" class="d-block w-100" alt="#5">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-    </div>
+    
 
     <br>
 
+    <!-- trailer + desc opcion 1 -->
 
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">SINOPSIS</h5>
-                    <p class="card-text">Un clasico del cine de los 80 donde Marty McFly, un joven aventurero, viaja accidentalmente al año 1955 en un DeLorian convertido en una maquina del tiempo por el excentrico cientifico Doc Brown.
-        Alli se encuentra con sus padres adolescentes y debe asegurarse de que se enamoren, o corre el riesgo de desaparecer de la historia. Con la ayuda del Doc, Marty lucha contra el tiempo para regresar al 1985 en una aventura llena de humor,
-        ciencia ficción y acción.</p>
+    <div class="container d-flex gap-4">
+        <div class="card mb-3">
+            <div class="row card-body">
+                <div class="col p-3">
+                    <h6 class="card-title text-center">SINOPSIS</h6>
+                    <p class="card-text">Un clasico del cine de los 80 donde Marty McFly, un joven aventurero, viaja accidentalmente al año 1955 en un DeLorian convertido en una maquina del tiempo por el excentrico cientifico Doc Brown.</p>
+                    <p>Alli se encuentra con sus padres adolescentes y debe asegurarse de que se enamoren, o corre el riesgo de desaparecer de la historia. Con la ayuda del Doc, Marty lucha contra el tiempo para regresar al 1985 en una aventura llena de humor,
+                        ciencia ficción y acción.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
+                <div class="col mx-auto p-3">
+                    <iframe src="https://www.youtube.com/embed/NZMtvziROC0?si=MCQwrG1qg-Yt46Of" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="col-md-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NZMtvziROC0?si=MCQwrG1qg-Yt46Of" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- trailer + desc opcion 2 -->
+
+    <div class="container d-flex justify-content-between gap-4">
+        <div class="col mb-3">
+            <div class="card">
+                <div class="card-body m-2">
+                    <h6 class="card-title">SINOPSIS</h6>
+                    <p class="card-text">Un clasico del cine de los 80 donde Marty McFly, un joven aventurero, viaja accidentalmente al año 1955 en un DeLorian convertido en una maquina del tiempo por el excentrico cientifico Doc Brown.</p>
+                    <p class="card-text">Alli se encuentra con sus padres adolescentes y debe asegurarse de que se enamoren, o corre el riesgo de desaparecer de la historia. Con la ayuda del Doc, Marty lucha contra el tiempo para regresar al 1985 en una aventura llena de humor, ciencia ficción y acción.</p>
+                </div>
             </div>
-            
+        </div>
+        <div class="col-sm-4 align-self-top">
+            <div class="card">
+                <div class="card-body m-2">
+                    <iframe class="responsive-iframe mx-auto" width="100%" src="https://www.youtube.com/embed/NZMtvziROC0?si=MCQwrG1qg-Yt46Of" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
         </div>
     </div>
 
 
+    <!-- 5 links con img, ++a passer en db++ -->
 
-    <div class="d-flex container-fluid gap-3">
-        <div class="card" style="width: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">PERSONAJES</h5>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div>
-                <img src="img/img-index/index-personajes.webp" class="card-img-top" alt="...">
-            </div>
+    <div class="container d-flex justify-content-between">
+
+        <div class="card" style="width: 12rem;">
+            <a href="previews.php?categoria=personajes">
+                <div class="card-body">
+                    <h5 class="card-title text-center">PERSONAJES</h5>
+                </div>
+                <div>
+                    <img src="img/img-index/index-personajes.webp" class="card-img-top" alt="...">
+                </div>
+            </a>
         </div>
 
-        <div class="card" style="width: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">PELICULAS</h5>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div>
-                <img src="img/img-index/index-peliculas.jpg" class="card-img-top" alt="...">
-            </div>
+
+
+        <div class="card" style="width: 12rem;">
+            <a href="peliculas.php">
+                <div class="card-body">
+                    <h5 class="card-title text-center">PELICULAS</h5>
+
+                </div>
+                <div>
+                    <img src="img/img-index/index-peliculas.jpg" class="card-img-top" alt="...">
+                </div>
+            </a>
         </div>
 
-        <div class="card" style="width: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">VEHICULOS</h5>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div>
-                <img src="img/img-index/index-vehiculos.jpeg" class="card-img-top" alt="...">
-            </div>
+
+        <div class="card" style="width: 12rem;">
+            <a href="previews.php?categoria=vehiculos">
+                <div class="card-body">
+                    <h5 class="card-title text-center">VEHICULOS</h5>
+
+                </div>
+                <div>
+                    <img src="img/img-index/index-vehiculos.jpeg" class="card-img-top" alt="...">
+                </div>
+            </a>
         </div>
 
-        <div class="card" style="width: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">LINEA DEL TIEMPO</h5>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div>
-                <img src="img/img-index/index-lineadetiempo.webp" class="card-img-top" alt="...">
-            </div>
+        <div class="card" style="width: 12rem;">
+            <a href="preview2.php?categoria=tiempo">
+                <div class="card-body">
+                    <h5 class="card-title text-center">LINEA DEL TIEMPO</h5>
+
+                </div>
+                <div>
+                    <img src="img/img-index/index-lineadetiempo.webp" class="card-img-top" alt="...">
+                </div>
+            </a>
         </div>
 
-        <div class="card" style="width: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-center">CAMEOS</h5>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div>
-                <img src="img/img-index/index-cameos.jpg" class="card-img-top" alt="...">
-            </div>
+        <div class="card" style="width: 12rem;">
+            <a href="preview2.php?categoria=cameos">
+                <div class="card-body">
+                    <h5 class="card-title text-center">CAMEOS</h5>
+
+                </div>
+                <div>
+                    <img src="img/img-index/index-cameos.jpg" class="card-img-top" alt="...">
+                </div>
+            </a>
         </div>
+
 
     </div>
 

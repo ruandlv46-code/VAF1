@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vuelta al futuro</title>
+     <link rel="icon" type="image/x-icon" href="img/icono.ico">
+     <link rel="stylesheet" href="css/estilos.css">
+    
 
 
     <!-- 1.BOOTSTRAP CSS -->
@@ -24,28 +27,19 @@
 
 </head>
 
-<body>
 
 
     <div class="d-flex justify-content-between bg-body-tertiary p-3">
 
-
-
-
-        <form action="busqueda.php" method="GET" class="d-flex" role="search">
+        <form action="busqueda.php" method="GET" class="d-flex ms-5" role="search">
             <input class="form-control me-2" name="q" type="search" placeholder="Buscador" aria-label="Search" />
             <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
-
-
 
         <div>
             <img class="container-sm img-fluid " src="img/BTTF_Logo_tr_xsm.png" alt=" No logo">
 
         </div>
-
-
-
     </div>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -57,7 +51,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-5 me-5 mb-2 mb-lg-0 w-100 justify-content-between">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.php">INICIO</a>
                     </li>
@@ -93,4 +87,3 @@
 
 
 
-</body>
