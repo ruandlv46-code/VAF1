@@ -35,9 +35,27 @@ require "partials/header.php" ?>
 <main class="container">
     <h1 class="text-center">Resultados de busqueda</h1>
 
-<?php var_dump($termino_busqueda)?>   
+<div class="bg-white"> 
+<?php var_dump($termino_busqueda)?>     
+</div>   
+
 <br>
+
+<div class="bg-white"> 
 <?php var_dump($resultados)?>  
+</div>  
+<br>
+<div class="bg-white"> 
+<?php var_dump($resultados[0])?>  
+</div> 
+<br>
+<div class="bg-white"> 
+<?php var_dump($resultados[0])?>  
+</div> 
+<br>
+<div class="bg-white"> 
+<?php var_dump($resultados[0]['id'])?>  
+</div>
 
     <?php if ($termino_busqueda && !empty($resultados)) { ?>
         <div class="row">

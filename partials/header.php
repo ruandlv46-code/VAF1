@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vuelta al futuro</title>
-     <link rel="icon" type="image/x-icon" href="img/icono.ico">
-    
-    
+    <link rel="icon" type="image/x-icon" href="img/icono.ico">
+
+
 
 
     <!-- 1.BOOTSTRAP CSS -->
@@ -17,14 +17,14 @@
 
 
     <!-- 2.CUSTOM CSS -->
-<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 
     <!-- 3.FAVICON -->
     <link rel="shortcut icon" href="img/fav2.jpg" type="x-icon">
 
     <!-- 4.ICONOS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
 </head>
@@ -37,7 +37,7 @@
 
         <form action="busqueda.php" method="GET" class="d-flex ms-5" role="search">
             <input class="form-control me-2" name="q" type="search" placeholder="Buscador" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <button class="btn botonsec" type="submit">Buscar</button>
         </form>
 
         <div>
@@ -93,9 +93,7 @@
 </header>
 
 <body>
-    
 
 
-<main>
 
-
+    <main>

@@ -4,10 +4,7 @@
     box-sizing: border-box;
 } */
 
-/* body {
 
-    background-color: #191825;
-} */
 
 
 /* HEADER */
@@ -15,8 +12,12 @@
 header {
     background-color: #FFCC00;
     color:#191825;
-;
+}
 
+nav a:hover{
+    color: #EB5B00;
+    
+    text-decoration: underline;
 }
 
 /* Body */
@@ -26,16 +27,68 @@ body {
 
 }
 
+.botonsec {
+    background-color: transparent;
+    border-radius:  1px;
+    border-color: #0A74DA;
+    font-display: #0A74DA;
+    padding: 12px 20px;
+}
+
 h1 {
     color: #EB5B00;
     font-size: 40px;
 }
 
+.carousel-caption {
+    color: #EB5B00;
+
+}
+
+text {
+color: #EB5B00;
+
+}
+
+text {
+color: #EB5B00;
+
+}
+
+.card-title {
+color: #EB5B00;
+
+}
+
+.card-text {
+color: #EB5B00;
+
+}
+
+h2 {
+ color: #c4ae94;
+}
+
+
+
 
 .titulocarta {
-    font-size: 12px
+    font-size: 16px
+}
 
+.titulocarta:hover {
+    color: #EB5B00;
+    font-size: 24px;
+    text-decoration: underline;
+}
 
+.card {
+  border: 2px solid #EB5B00;
+background-color:  #ac9e8e;
+ /*  border-radius: 8px;    /* Rounds the corners with an 8px radius */ */
+ /*  padding: 20px;         /* Adds internal spacing */ */
+ /* Sets a white background */
+ 
 }
 
 
@@ -64,9 +117,12 @@ color: #0A74DA;
 }
 
 
-button {
+.botonprim {
     background-color: #0A74DA;
     color: #ffffff;
     border-radius: 6px;
     padding: 12px 20px;
 }
+
+
+

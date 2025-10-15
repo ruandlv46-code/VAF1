@@ -14,7 +14,7 @@
         </div>
 
         <div class= "ms-auto p-2 align-self-top">
-            <button type="button">SUSCRIBETE</button>
+            <button type="button" class="botonprim">SUSCRIBETE</button>
         </div>
 
     </div>
