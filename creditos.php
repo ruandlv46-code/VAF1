@@ -6,21 +6,21 @@
 <h1>Creditos:</h1>
 </div>
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center text-white">
 <div class="creditos">
-    <p>Diseño Web: </p>
+    <h3>Diseño Web: </h3>
     <p>Yamila Mariel Isingrini /</p>
     <p>Vazquez Pilon Gabriela /</p>
     <p>Ernesto Yevara</p>
 
-    <p>Programación:</p>
+    <h3>Programación:</h3>
     <p> Odila Balbi /</p>
     <p> Gonzalo Guerrero /</p>
     <p> Erwan Durandin /</p>
     <p> Diego Massaro</p>
     </p>
 
-    <p>Testers:</p>
+    <h3>Testers:</h3>
     <p> Moscoso Bozo Angela Alejandra /</p>
     <p> Pino Victor /</p>
     <p> Pironi Giuliana</p>

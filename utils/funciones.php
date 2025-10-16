@@ -95,6 +95,19 @@ return $resultado;
 }
 
 
+function gurdarEmail($conn, $email){
+
+    $sqlquery = "INSERT INTO emails (email) VALUES ('$email')";
+
+    $result = mysqli_query($conn, $sqlquery);
+
+    if($result){
+        return "correcto";
+    }else {
+        return "error al guardar el mail: " . mysqli_error($conn);
+    }
+}
+
 
 ?>
 
