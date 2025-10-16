@@ -20,6 +20,8 @@ $tablas= [
 
 if(!array_key_exists($tabla,$tablas)){
 
+    
+
 header('location: error404.php');
 }
 
@@ -57,11 +59,11 @@ echo "</pre>"; */ ?>
 
     <h1 class="text-center p-5">Guia de <?= $tabla ?></h1>
 
-    <div class="container row mx-auto">
+    <div class="container row mx-auto" >
 
         <?php foreach ($categorias as $c) { ?>
-            <div class="col-4 mt-4 mb-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-4 mt-4 mb-4" >
+                <div class="card" style="width: 18rem; height:600px;">
                     <img height="300px"src="img/<?= $tabla ?>/<?= $c["img1"] ?> " class="card-img-top" alt="#">
                     
                     <div class="card-body">
