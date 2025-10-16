@@ -31,9 +31,9 @@
                         <div class="carousel-caption d-none d-md-block ">
                             <div class="d-flex flex-column align-items-end">
                                
-                                    <h5>Personajes locos</h5>
+                                    <h5 class="font-bold">Personajes locos</h5>
                                 
-                                    <a class="btn btn-active botonsec" href="previews.php?categoria=personajes">Saber +</a>
+                                    <a class="btn btn-active botonsec rounded-3" href="previews.php?categoria=personajes">Saber +</a>
 
                             </div>
                         </div>
