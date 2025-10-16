@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2025 a las 22:41:18
+-- Tiempo de generación: 16-10-2025 a las 22:57:21
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -42,7 +42,7 @@ CREATE TABLE `cameos` (
 
 INSERT INTO `cameos` (`id`, `nombre`, `img1`, `descripcion`) VALUES
 (1, 'bart to the future', 'cameo1.jpg', 'En Los Simpsons hubo muchas referencias a volver al futuro, una de ellas es el nombre del capitulo en el que Bart ve el futuro con ayuda de una maquina. El capitulo se llama \"Bart to the future\" haciendo referencia al nombre de la película en ingles (Back to the future).'),
-(2, 'Bill and Ted', 'cameo2.webp', 'En el show de Universal Bill and Ted\'s excelent halloween adventure, aparecen Doc. ofreciendo una vuelta a Bill y Ted.'),
+(2, 'Bill and Ted', 'cameo2.jpg', 'En el show de Universal Bill and Ted\'s excelent halloween adventure, aparecen Doc. ofreciendo una vuelta a Bill y Ted.'),
 (3, 'Lego Dimensions', 'cameo3.jpg', 'En el videojuego Lego Dimensions aparece Marty McFly en el anuncio del mismo y la voz del personaje en el juego está grabada por el actor del personaje, Michael J. Fox.'),
 (4, 'Serie animada', 'cameo4.jpg', 'En la serie animada de los años 1991-1992 está una imagen de la familia del Doc. hecha con los actores de la vida real.'),
 (5, 'A million ways to die in the west', 'cameo5.jpg', 'En A million ways to die in the west, el Doc. hace un cameo breve mientras trabaja en el DeLorean.'),
