@@ -46,7 +46,7 @@
                                
                                     <h5>Autos superpoderosos</h5>
                                 
-                                    <a class="btn btn-active botonsec" href="previews.php?categoria=vehiculos" >Saber +</a>
+                                    <a class="btn btn-active botonsec rounded-3" href="previews.php?categoria=vehiculos" >Saber +</a>
 
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                                
                                     <h5>3 Peliculas</h5>
                                 
-                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="peliculas.php" role="button">Saber +</a>
+                                    <a class="btn btn-active botonsec rounded-3"  href="peliculas.php?categoria=peliculas" role="button">Saber +</a>
 
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                
                                     <h5>Viajes en el tiempo</h5>
                                 
-                                    <a class="btn btn-active botonsec" href="preview2.php?categoria=tiempo" >Saber + </a>
+                                    <a class="btn btn-active botonsec rounded-3" href="preview2.php?categoria=tiempo" >Saber + </a>
 
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                
                                     <h5> Cameos insolitos</h5>
                                 
-                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=cameos" role="button">Saber + </a>
+                                    <a class="btn btn-active botonsec rounded-3"  href="previews.php?categoria=cameos" >Saber + </a>
 
                             </div>
                         </div>

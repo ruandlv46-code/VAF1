@@ -69,7 +69,7 @@ require "partials/header.php" ?>
                         <div class="card-body">
                             <h5 class="card-title"><?= $c['nombre'] ?> </h5>
 
-                            <a href="<?= $c['tabla'] ?>.php?categoria=<?= $c['tabla'] ?>&id=<?= $c["id"] ?>" class="btn btn-warning">Ver mas</a>
+                            <a href="<?= $c['tabla'] ?>.php?categoria=<?= $c['tabla'] ?>&id=<?= $c["id"] ?>" class="btn botonprim">Ver mas</a>
                         </div>
                     </div>
 

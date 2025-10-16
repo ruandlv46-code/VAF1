@@ -2,29 +2,29 @@
 
 <footer>
 
-    <div class="container d-flex">
+  <div class="container d-flex">
 
-        <div class="d-flex redes-sociales align-self-end">
+    <div class="d-flex redes-sociales align-self-end">
 
-            <a href="#"><i class="icono fa-brands fa-facebook p-2"></i></a>
-            <a href="#"><i class="icono fa-brands fa-instagram p-2"></i></a>
-            <a href="#"><i class="icono fa-brands fa-linkedin p-2"></i></a>
-            <a href="#"><i class="icono fa-brands fa-youtube p-2"></i></a>
+      <a href="#"><i class="icono fa-brands fa-facebook p-2"></i></a>
+      <a href="#"><i class="icono fa-brands fa-instagram p-2"></i></a>
+      <a href="#"><i class="icono fa-brands fa-linkedin p-2"></i></a>
+      <a href="#"><i class="icono fa-brands fa-youtube p-2"></i></a>
 
-        </div>
-
-        <div class="ms-auto p-2 align-self-top d-flex">
-            
-            <button type="button" class="botonprim" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                SUSCRIBETE
-            </button>
-        </div>
-
-        <div class="ms-auto p-2 align-self-top d-flex">
-            <a href="creditos.php" class="botonprim text-decoration-none">CREDITOS</a>
-
-        </div>
     </div>
+
+    <div class="ms-auto p-2 align-self-top d-flex">
+
+      <button type="button" class="botonprim" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        SUSCRIBETE
+      </button>
+    </div>
+
+    <div class="ms-auto p-2 align-self-top d-flex">
+      <a href="creditos.php" class="botonprim text-decoration-none">CREDITOS</a>
+
+    </div>
+  </div>
 
 
 </footer>
@@ -40,14 +40,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-            <form action="guardar.php" method="POST">
-                <input type="email" name="s" id="" class="form-control" placeholder="Coloque aqui su correo" required>
-                <input type="submit" value="Enviar" class="btn btn-primary mt-3"   >
-            </form>
+        <form action="guardar.php" method="POST">
+          <input type="email" name="s" id="" class="form-control" placeholder="Coloque aqui su correo" required>
+          <input type="submit" value="Enviar" class="btn btn-primary mt-3">
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        
+
       </div>
     </div>
   </div>
