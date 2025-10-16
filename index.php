@@ -10,7 +10,7 @@
                 <div class="col p-3"> -->
 
 
-<div class="container card mb-3">
+<div class="container card mb-3 ">
 
     <div class="row card-body justify-content-center">
         <div class="col-8 p-3">
@@ -31,9 +31,9 @@
                         <div class="carousel-caption d-none d-md-block ">
                             <div class="d-flex flex-column align-items-end">
                                
-                                    <h5>Personajes locos</h5>
+                                    <h5 class="font-bold">Personajes locos</h5>
                                 
-                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=personajes" role="button">Saber +</a>
+                                    <a class="btn btn-active botonsec rounded-3" href="previews.php?categoria=personajes">Saber +</a>
 
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                                
                                     <h5>Autos superpoderosos</h5>
                                 
-                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=vehiculos" role="button">Saber +</a>
+                                    <a class="btn btn-active botonsec" href="previews.php?categoria=vehiculos" >Saber +</a>
 
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                
                                     <h5>Viajes en el tiempo</h5>
                                 
-                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="preview2.php?categoria=tiempo" role="button">Saber + </a>
+                                    <a class="btn btn-active botonsec" href="preview2.php?categoria=tiempo" >Saber + </a>
 
                             </div>
                         </div>

@@ -37,7 +37,7 @@
 
         <form action="busqueda.php" method="GET" class="d-flex ms-5" role="search">
             <input class="form-control me-2" name="q" type="search" placeholder="Buscador" aria-label="Search" />
-            <button class="btn botonsec" type="submit">Buscar</button>
+            <button class="btn botonsec  rounded-3" type="submit">Buscar</button>
         </form>
 
         <div>

@@ -7,12 +7,29 @@ require_once "utils/funciones.php";
 
 $tabla = $_GET["categoria"] ? $_GET["categoria"] : FALSE;
 
+$tablas= [
+'personajes'=> ['personaje'=>'bienvenidos'],
+'vehiculos'=>['vehiculo'=>'bienvenidos'],
+'peliculas'=>['peliculas'=>'peliculas'],
+'tiempo'=>['tiempo'=>'bienvenidos'],
+'cameos'=>['cameo'=>'bienvenidos']
+
+
+];
+
+
+if(!array_key_exists($tabla,$tablas)){
+
+header('location: error404.php');
+}
 
 //var_dump($tabla);
 
 // llamar a la funcion
 
 $categorias = listar_todo($conn, $tabla);
+
+
 
 
 
@@ -48,7 +65,7 @@ echo "</pre>"; */ ?>
                     <img height="300px"src="img/<?= $tabla ?>/<?= $c["img1"] ?> " class="card-img-top" alt="#">
                     
                     <div class="card-body">
-                        <h5 class="card-title"><?= $c["descripcion"] ?> </h5>
+                        <h5 class="card-title card-text"><?= $c["descripcion"] ?> </h5>
                     </div>
                 </div>
 
