@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2025 a las 19:55:26
+-- Tiempo de generación: 16-10-2025 a las 22:41:18
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -42,7 +42,7 @@ CREATE TABLE `cameos` (
 
 INSERT INTO `cameos` (`id`, `nombre`, `img1`, `descripcion`) VALUES
 (1, 'bart to the future', 'cameo1.jpg', 'En Los Simpsons hubo muchas referencias a volver al futuro, una de ellas es el nombre del capitulo en el que Bart ve el futuro con ayuda de una maquina. El capitulo se llama \"Bart to the future\" haciendo referencia al nombre de la película en ingles (Back to the future).'),
-(2, 'Bill and Ted', 'cameo2.jpg', 'En el show de Universal Bill and Ted\'s excelent halloween adventure, aparecen Doc. ofreciendo una vuelta a Bill y Ted.'),
+(2, 'Bill and Ted', 'cameo2.webp', 'En el show de Universal Bill and Ted\'s excelent halloween adventure, aparecen Doc. ofreciendo una vuelta a Bill y Ted.'),
 (3, 'Lego Dimensions', 'cameo3.jpg', 'En el videojuego Lego Dimensions aparece Marty McFly en el anuncio del mismo y la voz del personaje en el juego está grabada por el actor del personaje, Michael J. Fox.'),
 (4, 'Serie animada', 'cameo4.jpg', 'En la serie animada de los años 1991-1992 está una imagen de la familia del Doc. hecha con los actores de la vida real.'),
 (5, 'A million ways to die in the west', 'cameo5.jpg', 'En A million ways to die in the west, el Doc. hace un cameo breve mientras trabaja en el DeLorean.'),
@@ -53,6 +53,29 @@ INSERT INTO `cameos` (`id`, `nombre`, `img1`, `descripcion`) VALUES
 (10, 'Supernatural', 'cameo10.jpg', 'En supernatural hay varias escenas que en las que referenciaron a Volver al futuro. Destacamos una en la que uno de los hermanos viajan al pasado y se pregunta si existe el DeLorean.'),
 (11, 'stranger_things', 'cameo11.jpg', 'En una escena de Stranger Things aparece cartel promocional de la película de volver al futuro y también uno de los personajes está en el cine mirando la misma.'),
 (12, 'gravity_falls', 'cameo12.jpg', 'En Gravity Falls los personajes hacen referencia a Volver al Futuro. Los nombres de los protagonistas (Mabel y Dipper Pines) Son un juego de palabras junto con Twin Pines (centro comercial del film), además la gorra del protagonista es muy parecida a la de Marty McFly.');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `emails`
+--
+
+CREATE TABLE `emails` (
+  `id` int(11) NOT NULL,
+  `email` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `emails`
+--
+
+INSERT INTO `emails` (`id`, `email`) VALUES
+(1, 'correo@correo.com'),
+(2, 'correo@correo.com'),
+(3, 'correo@correo.com'),
+(4, 'correo@correo.com'),
+(5, 'correo@correo.com'),
+(6, 'correo@correo.com');
 
 -- --------------------------------------------------------
 
@@ -109,20 +132,6 @@ INSERT INTO `personajes` (`id`, `nombre`, `img1`, `descripcion`, `fecha_de_nacim
 (10, 'Dave McFly', 'dav.jpg', 'David Tiberius \"Dave\" McFly es el hijo mayor de George y Lorraine McFly. Nació en 1963 en Hill Valley, California, y es el hermano mayor de Linda y Marty McFly. Dave era un joven bastante tranquilo, con un sentido del humor simple, y solía reírse de sus propios chistes, aunque no siempre fueran graciosos. Mantuvo un vínculo cercano con su padre en casi todas las líneas temporales, y probablemente era el hermano McFly que mejor se llevaba con George. Le gustaba ver repeticiones de The Honeymooners con él, y no mostraba demasiado interés por los deportes o la actividad física.', '11-05', '21', 'Marc McClure'),
 (11, 'Linda McFly', 'lin.jpg', 'Linda McFly es la hija del medio y la única hija de George y Lorraine McFly. Nació en 1966 en Hill Valley, California, siendo la hermana menor de Dave y mayor de Marty. Se graduó de la preparatoria Hill Valley en 1984 y solía mostrar interés por los chicos, aunque sus padres eran bastante estrictos al respecto.', '09-01', '19', 'Wendie Jo Sperber'),
 (12, 'Goldie Wilson', 'gol.jpg', 'Goldie Wilson fue alcalde de Hill Valley en 1985 y ocupaba el cargo desde 1977. Sus anuncios de campaña para la reelección en 1985 prometían más empleos, mejor educación, mayores mejoras cívicas y una reducción de impuestos. El lema de sus anuncios impresos era: “Honestidad, Decencia e Integridad”. De joven trabajaba en el Café de Lou y tenía un característico diente de oro, aunque existe cierta controversia sobre si aún lo conservaba treinta años después, cuando se postulaba nuevamente para el cargo. Su ascenso político simbolizó el cambio y las oportunidades en Hill Valley.', '1933', '52', 'Donald Fullilove');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `suscripcion`
---
-
-CREATE TABLE `suscripcion` (
-  `id` int(11) NOT NULL,
-  `nombre` varchar(150) NOT NULL,
-  `apellido` varchar(150) NOT NULL,
-  `mail` varchar(150) NOT NULL,
-  `comentario` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -192,6 +201,12 @@ ALTER TABLE `cameos`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `emails`
+--
+ALTER TABLE `emails`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `peliculas`
 --
 ALTER TABLE `peliculas`
@@ -201,12 +216,6 @@ ALTER TABLE `peliculas`
 -- Indices de la tabla `personajes`
 --
 ALTER TABLE `personajes`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `suscripcion`
---
-ALTER TABLE `suscripcion`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -232,6 +241,12 @@ ALTER TABLE `cameos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
+-- AUTO_INCREMENT de la tabla `emails`
+--
+ALTER TABLE `emails`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
 -- AUTO_INCREMENT de la tabla `peliculas`
 --
 ALTER TABLE `peliculas`
@@ -242,12 +257,6 @@ ALTER TABLE `peliculas`
 --
 ALTER TABLE `personajes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
---
--- AUTO_INCREMENT de la tabla `suscripcion`
---
-ALTER TABLE `suscripcion`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `tiempo`
