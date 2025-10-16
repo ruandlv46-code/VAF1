@@ -69,7 +69,7 @@ echo "</pre>";
 
       <div class="col-8 d-flex justify-content-center">
         <div class="card mb-5 ms-5 border-1" style="border-color: gris">
-        <p class="p-3"><?= $p['descripcion'] ?></p>
+        <p class="p-3 card-text"><?= $p['descripcion'] ?></p>
         </div>
       </div>
 
@@ -80,9 +80,10 @@ echo "</pre>";
             <img src="img/personajes/<?= $p['img1'] ?>" class="img-fluid rounded" alt="...">
           </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center card-text">
           <h5>Informacion biologica</h5>
-          <p>Fecha de nacimiento: <?= $p['fecha_de_nacim'] ?> - Edad: <?= $p['edad'] ?></p>
+          <p>Fecha de nacimiento: <?= $p['fecha_de_nacim'] ?></p>
+          <p>Edad en 1985: <?= $p['edad'] ?></p>
           <h5>Informacion detras de escena</h5>
           <p>interpretado por: <?= $p['actor'] ?></p>
         </div>

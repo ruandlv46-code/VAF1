@@ -84,7 +84,7 @@ $resultCameos = $conn->query($sqlCameos)->fetch_all(MYSQLI_ASSOC);
 
 // 3- Combinar las 5 tablas
 
-$resultado = array_merge($resultPersonajes,$resultVehiculos);
+$resultado = array_merge($resultPersonajes,$resultVehiculos, $resultTiempo,$resultPeliculas, $resultCameos  );
 
 return $resultado;
 

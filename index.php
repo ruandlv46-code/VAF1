@@ -25,40 +25,66 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/img-carrusel_index/fotocarrusel1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>BLA</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <a type=button class="botonsec" href="previews.php?categoria=vehiculos"></a>
-                            <a class="btn btn-primary" href="previews.php?categoria=vehiculos" role="button">Link</a>
+                        <div>
+                            <img src="img/img-carrusel_index/fotocarrusel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block ">
+                            <div class="d-flex flex-column align-items-end">
+                               
+                                    <h5>Personajes locos</h5>
+                                
+                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=personajes" role="button">Saber +</a>
+
+                            </div>
                         </div>
                     </div>
+
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="img/img-carrusel_index/fotocarrusel2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                        <div class="carousel-caption d-none d-md-block ">
+                            <div class="d-flex flex-column align-items-end">
+                               
+                                    <h5>Autos superpoderosos</h5>
+                                
+                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=vehiculos" role="button">Saber +</a>
+
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/img-carrusel_index/fotocarrusel3.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <div class="d-flex flex-column align-items-end">
+                               
+                                    <h5>3 Peliculas</h5>
+                                
+                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="peliculas.php" role="button">Saber +</a>
+
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/img-carrusel_index/fotocarrusel4.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <div class="d-flex flex-column align-items-end">
+                               
+                                    <h5>Viajes en el tiempo</h5>
+                                
+                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="preview2.php?categoria=tiempo" role="button">Saber + </a>
+
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/img-carrusel_index/fotocarrusel5.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <div class="d-flex flex-column align-items-end">
+                               
+                                    <h5> Cameos insolitos</h5>
+                                
+                                    <a class="btn btn-active botonsec" data-bs-toggle="button" href="previews.php?categoria=cameos" role="button">Saber + </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -16,8 +16,8 @@ header {
 
 nav a:hover{
     color: #EB5B00;
-    
     text-decoration: underline;
+    font-weight: bold;
 }
 
 /* Body */
@@ -32,6 +32,7 @@ body {
     border-radius:  1px;
     border-color: #0A74DA;
     font-display: #0A74DA;
+    color: #0A74DA ;
     padding: 12px 20px;
 }
 
@@ -41,32 +42,31 @@ h1 {
 }
 
 .carousel-caption {
-    color: #EB5B00;
+    color: #0A74DA ;
 
 }
 
 text {
 color: #EB5B00;
+font-weight: bold;
 
 }
 
-text {
-color: #EB5B00;
-
-}
 
 .card-title {
 color: #EB5B00;
+font-weight: bold;
 
 }
 
 .card-text {
-color: #EB5B00;
+color: #191825;
+font-weight: bold;
 
 }
 
 h2 {
- color: #c4ae94;
+ color: #EB5B00;
 }
 
 
@@ -78,8 +78,9 @@ h2 {
 
 .titulocarta:hover {
     color: #EB5B00;
-    font-size: 24px;
+   /*  font-size: 24px; */
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .card {
