@@ -45,7 +45,7 @@ echo "</pre>"; */ ?>
         <?php foreach ($categorias as $c) { ?>
             <div class="col-4 mt-4 mb-4">
                 <div class="card" style="width: 18rem;">
-                    <img height="300px"src="img/<?= $tabla ?>/<?= $c["img"] ?> " class="card-img-top" alt="#">
+                    <img height="300px"src="img/<?= $tabla ?>/<?= $c["img1"] ?> " class="card-img-top" alt="#">
                     
                     <div class="card-body">
                         <h5 class="card-title"><?= $c["descripcion"] ?> </h5>

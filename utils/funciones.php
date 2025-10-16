@@ -62,14 +62,14 @@ $sqlPersonajes = "SELECT 'personajes' as tabla, id, img1, nombre, descripcion, f
 // consultas vehiculos
 $sqlVehiculos = "SELECT 'vehiculos' as tabla, id, img1, nombre, descripcion, img2, img3, img4, img5, img6 FROM vehiculos WHERE LOWER(nombre) LIKE '%$termino_busqueda%' ";
 
-/* // consultas tiempo
+ // consultas tiempo
 $sqlTiempo = "SELECT 'tiempo' as tabla,id,nombre,descripcion,img1 FROM tiempo WHERE LOWER(nombre) LIKE '%$termino_busqueda%' ";
 
 // consultas peliculas
-$sqlPeliculas = "SELECT 'peliculas' as tabla,id,nombre, descripcion,img1 FROM peliculas WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; */
+$sqlPeliculas = "SELECT 'peliculas' as tabla,id,nombre, descripcion,img1 FROM peliculas WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; 
 
-/* // consultas cameos
-$sqlCameos = "SELECT 'cameos' as tabla,id,nombre, descripcion,img1 FROM cameos WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; */
+ // consultas cameos
+$sqlCameos = "SELECT 'cameos' as tabla,id,nombre, descripcion,img1 FROM cameos WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; 
 
 
 
@@ -77,11 +77,9 @@ $sqlCameos = "SELECT 'cameos' as tabla,id,nombre, descripcion,img1 FROM cameos W
 
 $resultPersonajes = $conn->query($sqlPersonajes)->fetch_all(MYSQLI_ASSOC);
 $resultVehiculos = $conn->query($sqlVehiculos)->fetch_all(MYSQLI_ASSOC);
-/* $resultTiempo = $conn->query($sqlTiempo)->fetch_all(MYSQLI_ASSOC);
+$resultTiempo = $conn->query($sqlTiempo)->fetch_all(MYSQLI_ASSOC);
 $resultPeliculas = $conn->query($sqlPeliculas)->fetch_all(MYSQLI_ASSOC);
 $resultCameos = $conn->query($sqlCameos)->fetch_all(MYSQLI_ASSOC);
-
-*/
 
 
 // 3- Combinar las 5 tablas
