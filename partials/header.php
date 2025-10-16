@@ -65,7 +65,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="peliculas.php">PELICULAS</a>
+                        <a class="nav-link" href="peliculas.php?categoria=peliculas">PELICULAS</a>
                     </li>
 
                     <li class="nav-item">
