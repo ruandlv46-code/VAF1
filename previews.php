@@ -7,7 +7,19 @@ require_once "utils/funciones.php";
 
 $tabla = $_GET["categoria"] ? $_GET["categoria"] : FALSE;
 
+$tablas= [
+'personajes'=> ['personaje'=>'bienvenidos'],
+'vehiculos'=>['vehiculo'=>'bienvenidos'],
+'tiempo'=>['tiempo'=>'bienvenidos'],
+'cameos'=>['cameo'=>'bienvenidos']
 
+
+];
+
+if(!array_key_exists($tabla,$tablas)){
+
+header('location: index.php');
+}
 //var_dump($tabla);
 
 // llamar a la funcion
