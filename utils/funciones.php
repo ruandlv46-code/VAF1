@@ -57,19 +57,19 @@ function buscar ($conn, $termino_busqueda){
 $termino_busqueda = $conn->real_escape_string($termino_busqueda);
 
 // consultas personajes
-$sqlPersonajes = "SELECT 'personajes' as tabla, id, img1, nombre, descripcion, fecha_de_nacim, edad, actor FROM personajes WHERE LOWER(nombre) LIKE '%$termino_busqueda%' ";
+$sqlPersonajes = "SELECT 'personajes' as tabla, id, img1, nombre, descripcion, fecha_de_nacim, edad, actor FROM personajes WHERE LOWER(nombre) OR LOWER(descripcion) LIKE '%$termino_busqueda%' ";
 
 // consultas vehiculos
-$sqlVehiculos = "SELECT 'vehiculos' as tabla, id, img1, nombre, descripcion, img2, img3, img4, img5, img6 FROM vehiculos WHERE LOWER(nombre) LIKE '%$termino_busqueda%' ";
+$sqlVehiculos = "SELECT 'vehiculos' as tabla, id, img1, nombre, descripcion, img2, img3, img4, img5, img6 FROM vehiculos WHERE LOWER(nombre) OR LOWER(descripcion) LIKE '%$termino_busqueda%' ";
 
  // consultas tiempo
-$sqlTiempo = "SELECT 'tiempo' as tabla,id,nombre,descripcion,img1 FROM tiempo WHERE LOWER(nombre) LIKE '%$termino_busqueda%' ";
+$sqlTiempo = "SELECT 'tiempo' as tabla,id,nombre,descripcion,img1 FROM tiempo WHERE LOWER(nombre) OR LOWER(descripcion) LIKE '%$termino_busqueda%' ";
 
 // consultas peliculas
-$sqlPeliculas = "SELECT 'peliculas' as tabla,id,nombre, descripcion,img1 FROM peliculas WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; 
+$sqlPeliculas = "SELECT 'peliculas' as tabla,id,nombre, descripcion,img1 FROM peliculas WHERE LOWER(nombre) OR LOWER(descripcion) LIKE '%$termino_busqueda%' "; 
 
  // consultas cameos
-$sqlCameos = "SELECT 'cameos' as tabla,id,nombre, descripcion,img1 FROM cameos WHERE LOWER(nombre) LIKE '%$termino_busqueda%' "; 
+$sqlCameos = "SELECT 'cameos' as tabla,id,nombre, descripcion,img1 FROM cameos WHERE LOWER(nombre) OR LOWER(descripcion) LIKE '%$termino_busqueda%' "; 
 
 
 

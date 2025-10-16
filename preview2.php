@@ -48,7 +48,7 @@ echo "</pre>"; */ ?>
                     <img height="300px"src="img/<?= $tabla ?>/<?= $c["img1"] ?> " class="card-img-top" alt="#">
                     
                     <div class="card-body">
-                        <h5 class="card-title"><?= $c["descripcion"] ?> </h5>
+                        <h5 class="card-title card-text"><?= $c["descripcion"] ?> </h5>
                     </div>
                 </div>
 
