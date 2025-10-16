@@ -15,9 +15,9 @@ header {
 }
 
 nav a:hover{
-    color: #EB5B00;
-    text-decoration: underline;
-    font-weight: bold;
+    color: #EB5B00 !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
 }
 
 /* Body */
@@ -29,10 +29,10 @@ body {
 
 .botonsec {
     background-color: transparent;
-    border-radius:  1px;
+    border-radius:  3px !important;
     border-color: #0A74DA;
     font-display: #0A74DA;
-    color: #0A74DA ;
+    color: #0A74DA !important;
     padding: 12px 20px;
 }
 
@@ -86,8 +86,8 @@ h2 {
 .card {
   border: 2px solid #EB5B00;
 background-color:  #ac9e8e;
- /*  border-radius: 8px;    /* Rounds the corners with an 8px radius */ */
- /*  padding: 20px;         /* Adds internal spacing */ */
+ /*  border-radius: 8px;    /* Rounds the corners with an 8px radius */ 
+ /*  padding: 20px;         /* Adds internal spacing */ 
  /* Sets a white background */
  
 }

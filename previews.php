@@ -10,6 +10,7 @@ $tabla = $_GET["categoria"] ? $_GET["categoria"] : FALSE;
 $tablas= [
 'personajes'=> ['personaje'=>'bienvenidos'],
 'vehiculos'=>['vehiculo'=>'bienvenidos'],
+'peliculas'=>['peliculas'=>'peliculas'],
 'tiempo'=>['tiempo'=>'bienvenidos'],
 'cameos'=>['cameo'=>'bienvenidos']
 
@@ -18,7 +19,7 @@ $tablas= [
 
 if(!array_key_exists($tabla,$tablas)){
 
-header('location: index.php');
+header('location: error404.php');
 }
 //var_dump($tabla);
 
